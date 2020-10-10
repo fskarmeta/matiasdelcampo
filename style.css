@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
+body {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bio.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 200vh;
+}
+
+.container {
+    height: 110vh;
+    width: 80vw;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 10vh;
+}
+
+@media (max-width: 980px) {
+    .header {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+    }
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-family: 'Cuprum', sans-serif;
+    margin-left: 1rem;
+}
+
+h2 {
+    margin-left: 0.5em;
+    display: flex;
+    font-family: 'Cuprum', sans-serif;
+    flex-wrap: nowrap;
+}
+
+.subhead {
+    display: flex;
+}
+
+i {
+    margin-left: 2rem;
+}
+
+.margin {
+    height: 100vh;
+    width: 20vw;
+    max-width: 50vw;
+    background-color: rgba(222, 234, 234, 1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.micro {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+i {
+    width: 20px;
+}
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 5px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75%;
+    height: 75%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+hr {
+    border: solid #334d68;
+    border-style: dotted;
+    border-width: thin;
+}
+
+h3 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin: 0 1rem;
+}
+
+.videos {
+    margin-top: 3rem;
+}
